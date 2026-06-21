@@ -18,7 +18,7 @@ function addTask() {
     }
 }
 
-// Check/uncheck or delete on click
+
 listContainer.addEventListener("click", function(e) {
     if (e.target.tagName === "LI") {
         e.target.classList.toggle("checked");
@@ -29,7 +29,7 @@ listContainer.addEventListener("click", function(e) {
     }
 });
 
-// Press Enter to add task
+
 inputBox.addEventListener("keydown", function(e) {
     if (e.key === "Enter") addTask();
 });
@@ -39,14 +39,14 @@ function saveData() {
     localStorage.setItem("data", listContainer.innerHTML);
 }
 
-// Load from localStorage on page open
+
 function showTask() {
     listContainer.innerHTML = localStorage.getItem("data") || "";
 }
 
 showTask();
 
-// Dark mode toggle
+
 function toggleDarkMode() {
     document.body.classList.toggle("dark");
     const toggle = document.querySelector(".dark-mode-toggle");
@@ -59,7 +59,7 @@ function toggleDarkMode() {
     }
 }
 
-// Load dark mode preference on page open
+
 if (localStorage.getItem("darkMode") === "enabled") {
     document.body.classList.add("dark");
     document.querySelector(".dark-mode-toggle").innerHTML = "☀️";
