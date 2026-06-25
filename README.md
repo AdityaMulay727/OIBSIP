@@ -1,20 +1,35 @@
-# OIBSIP - Oasis Infobyte Internship Projects
+# 🚀 OIBSIP Projects
 
-## Intern Details
-- **Name:** Aditya Mulay
-- **GitHub:** AdityaMulay727
-- **Internship:** Web Development & Designing
+**Web Development & Designing Internship — Oasis Infobyte | Aditya Mulay**
 
-## Live Demo
-[Click here to view live site](https://AdityaMulay727.github.io/OIBSIP)
+---
 
-## Tasks Completed
-- Level 2 - Calculator
-- Level 2 - Tribute Page
-- Level 2 - To-Do WebApp
-- Level 2 - Login Authentication
+## 🧮 Calculator
+A fully functional calculator with dark neumorphic design built using HTML, CSS & JavaScript.
 
-## Tech Stack
-- HTML
-- CSS
-- JavaScript
+🔗 [View Project](https://adityamulay727.github.io/OIBSIP/calculator/index.html)
+
+---
+
+## ✅ To-Do Web App
+A task manager app to add, complete and delete daily tasks built using HTML, CSS & JavaScript.
+
+🔗 [View Project](https://adityamulay727.github.io/OIBSIP/todo/index.html)
+
+---
+
+## 🎖️ Tribute Page
+A tribute page dedicated to an inspiring personality with a clean and elegant layout.
+
+🔗 [View Project](https://adityamulay727.github.io/OIBSIP/tribute/index.html)
+
+---
+
+## 🔐 Login Authentication
+A login and registration system with form validation built using HTML, CSS & JavaScript. Features include sign in, create account, password validation and a welcome dashboard.
+
+🔗 [View Project](https://adityamulay727.github.io/OIBSIP/login-auth/index.html)
+
+---
+
+© 2026 Aditya Mulay | OIBSIP Internship
