@@ -1,0 +1,122 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100%;
+    width: 100%;
+    background: linear-gradient(135deg, #1a1a2e 0%, #16213e 40%, #0f3460 100%);
+    color: white;
+}
+
+.container {
+    margin: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.card {
+    width: 100%;
+    max-width: 440px;
+    border-radius: 25px;
+    border: 1px solid grey;
+    padding: 35px;
+    text-align: center;
+}
+
+.logo {
+    height: 72px;
+    width: 72px;
+    border-radius: 50%;
+    font-size: 2rem;
+    background: linear-gradient(135deg, #e94560, #a855f7);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto 10px;
+    cursor: grabbing;
+}
+
+.para {
+    color: grey;
+    padding-top: 8px;
+}
+
+.input h4 {
+    padding-top: 15px;
+    text-align: left;
+    font-size: 13px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    color: #ccc;
+}
+
+#box1, #box2, #box3, #box4 {
+    width: 350px;
+    background-color: transparent;
+    height: 40px;
+    margin: 15px auto;
+    border: 1px solid white;
+    border-radius: 10px;
+    font-size: 17.5px;
+    color: white;
+    padding: 0 12px;
+    display: block;
+}
+
+#box1::placeholder, #box2::placeholder,
+#box3::placeholder, #box4::placeholder {
+    color: rgba(255, 255, 255, 0.35);
+}
+
+.btn {
+    height: 45px;
+    width: 350px;
+    border-radius: 25px;
+    color: white;
+    background: linear-gradient(135deg, #e94560, #a855f7);
+    margin: 25px auto;
+    cursor: pointer;
+    letter-spacing: 0.5px;
+    transition: all 0.3s;
+    font-size: 1rem;
+    font-weight: 700;
+    border: none;
+    display: block;
+}
+
+.btn:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 12px 30px rgba(233, 69, 96, 0.5);
+}
+
+.accounts {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 6px;
+    margin-top: 10px;
+    padding-bottom: 10px;
+}
+
+.accounts p {
+    color: grey;
+    font-size: 0.9rem;
+    margin: 0;
+}
+
+.accounts a {
+    color: aqua;
+    font-size: 15px;
+    transition: all 0.2s ease-out;
+    text-decoration: none;
+}
+
+.accounts a:hover {
+    transform: translateY(-3px);
+    color: white;
+    cursor: pointer;
+}
